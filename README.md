@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Dushantha majith</h1>
 <div align="center"> <img src="https://raw.githubusercontent.com/dushantha2000/dushantha2000/main/banner-3.png"> </div>
-<h3 align="center">A passionate Web Developer | Blogger | Volunteer | Creative Designer from Srilanka</h3>
+<h3 align="center">A passionate Web Developer | Creative Designer from Srilanka</h3>
 
 - 🌱 I’m currently learning **Laravel**
 
