@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Dushantha majith</h1>
-<div align="center"> <img src="https://raw.githubusercontent.com/jaiswaladi246/jaiswaladi246/main/banner-3.png"> </div>
+<div align="center"> <img src="https://raw.githubusercontent.com/dushantha2000/dushantha2000/main/banner-3.png"> </div>
 <h3 align="center">A passionate frontend developer from Srilanka</h3>
 
 - 🌱 I’m currently learning **Laravel**
