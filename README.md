@@ -3,6 +3,8 @@
 <h3 align="center">A passionate Web Developer | Creative Designer from Srilanka</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dushantha2000&label=Profile%20views&color=0e75b6&style=flat" alt="dushantha2000" /> </p>
 
+<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/dushantha2000/dushantha2000/main/gif3.gif">
+
 
 - 🌱 I’m currently learning **Laravel**
 
