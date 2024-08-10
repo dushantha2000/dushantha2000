@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Dushantha majith</h1>
-<div align="center"> <img src="https://raw.githubusercontent.com/dushantha2000/dushantha2000/main/banner-3.png"> </div>
+<div align="center"> <img src="https://raw.githubusercontent.com/dushantha2000/dushantha2000/main/12345.png"> </div>
 <h3 align="center">A passionate Web Developer | Creative Designer from Srilanka</h3>
 
 <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/dushantha2000/dushantha2000/main/gif3.gif">
