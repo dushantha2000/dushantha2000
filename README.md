@@ -1,209 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dushantha Majith - Profile</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-        body {
-            background-color: #f4f6f9;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            line-height: 1.6;
-        }
-        .profile-container {
-            width: 100%;
-            max-width: 600px;
-            background-color: white;
-            border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-            overflow: hidden;
-            transition: transform 0.3s ease;
-        }
-        .profile-container:hover {
-            transform: scale(1.02);
-        }
-        .profile-header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            text-align: center;
-            padding: 30px 20px;
-            position: relative;
-        }
-        .profile-image {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 5px solid white;
-            object-fit: cover;
-            margin-bottom: 15px;
-        }
-        .profile-name {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        .profile-title {
-            color: rgba(255,255,255,0.8);
-            font-size: 16px;
-        }
-        .nav-tabs {
-            display: flex;
-            justify-content: center;
-            background-color: #f8f9fa;
-            padding: 15px;
-        }
-        .nav-tab {
-            margin: 0 10px;
-            padding: 10px 20px;
-            border: none;
-            background-color: #e9ecef;
-            color: #495057;
-            border-radius: 20px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-        .nav-tab:hover, .nav-tab.active {
-            background-color: #007bff;
-            color: white;
-        }
-        .profile-content {
-            padding: 20px;
-            text-align: center;
-        }
-        .social-links {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-        .social-link {
-            margin: 0 10px;
-            color: #007bff;
-            text-decoration: none;
-            font-size: 24px;
-            transition: color 0.3s ease;
-        }
-        .social-link:hover {
-            color: #0056b3;
-        }
-        .tech-stack {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-            margin-top: 20px;
-        }
-        .tech-badge {
-            background-color: #e9ecef;
-            padding: 8px 15px;
-            border-radius: 20px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-        .tech-badge img {
-            width: 24px;
-            height: 24px;
-        }
-        .contact-section {
-            background-color: #f8f9fa;
-            padding: 15px;
-            text-align: center;
-        }
-        .contact-btn {
-            display: inline-block;
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 25px;
-            transition: background-color 0.3s ease;
-        }
-        .contact-btn:hover {
-            background-color: #0056b3;
-        }
-    </style>
-</head>
-<body>
-    <div class="profile-container">
-        <div class="profile-header">
-            <img src="https://raw.githubusercontent.com/dushantha2000/dushantha2000/main/12345.png" alt="Profile" class="profile-image">
-            <div class="profile-name">Dushantha Majith</div>
-            <div class="profile-title">Web Developer | Creative Designer</div>
-        </div>
-
-        <div class="nav-tabs">
-            <button class="nav-tab active" onclick="showSection('about')">About</button>
-            <button class="nav-tab" onclick="showSection('skills')">Skills</button>
-            <button class="nav-tab" onclick="showSection('blog')">Blog</button>
-        </div>
-
-        <div id="about" class="profile-content" style="display: block;">
-            <p>
-                Passionate web developer from Sri Lanka, currently diving deep into Laravel. 
-                I love creating innovative solutions and exploring new technologies.
-            </p>
-            <div class="social-links">
-                <a href="https://twitter.com/dushanthamajith" class="social-link">Twitter</a>
-                <a href="https://linkedin.com/in/dushantha majith" class="social-link">LinkedIn</a>
-                <a href="https://instagram.com/dushantha_majith" class="social-link">Instagram</a>
-            </div>
-        </div>
-
-        <div id="skills" class="profile-content" style="display: none;">
-            <h2>Tech Stack</h2>
-            <div class="tech-stack">
-                <div class="tech-badge">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React">
-                    React
-                </div>
-                <div class="tech-badge">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js">
-                    Node.js
-                </div>
-                <div class="tech-badge">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python">
-                    Python
-                </div>
-            </div>
-        </div>
-
-        <div id="blog" class="profile-content" style="display: none;">
-            <h2>Latest Blog</h2>
-            <a href="https://xtechnologyworld.blogspot.com" class="contact-btn">Visit My Tech Blog</a>
-        </div>
-
-        <div class="contact-section">
-            <a href="mailto:majithdushantha@gmail.com" class="contact-btn">Contact Me</a>
-        </div>
-    </div>
-
-    <script>
-        function showSection(sectionId) {
-            // Hide all sections
-            ['about', 'skills', 'blog'].forEach(section => {
-                document.getElementById(section).style.display = 'none';
-            });
-
-            // Remove active class from all tabs
-            document.querySelectorAll('.nav-tab').forEach(tab => {
-                tab.classList.remove('active');
-            });
-
-            // Show selected section
-            document.getElementById(sectionId).style.display = 'block';
-
-            // Add active class to clicked tab
-            event.target.classList.add('active');
-        }
-    </script>
-</body>
-</html>
+<h1 align="center">Hi 👋, I'm Dushantha majith</h1>
+<div align="center"> <img src="https://raw.githubusercontent.com/dushantha2000/dushantha2000/main/12345.png"> </div>
+<h3 align="center">A passionate Web Developer | Creative Designer from Srilanka</h3>
+<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/dushantha2000/dushantha2000/main/gif3.gif">
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=dushantha2000&label=Profile%20views&color=0e75b6&style=flat" alt="dushantha2000" /> </p>
+<br><br>
+- 🌱 I’m currently learning **Laravel**
+- 👨‍💻 All of my projects are available at [dushantha.me](dushantha.me](https://dushanthamajith.netlify.app)
+- 📝 I regularly write articles on [https://xtechnologyworld.blogspot.com](https://xtechnologyworld.blogspot.com)
+- 📫 How to reach me **majithdushantha@gmail.com**
+- ⚡ Fun fact **I think I'm funny**
+<br><br><br><br>
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/dushanthamajith" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="dushanthamajith" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/dushantha majith" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dushantha majith" height="30" width="40" /></a>
+<a href="https://fb.com/dushantha majith" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="dushantha majith" height="30" width="40" /></a>
+<a href="https://instagram.com/dushantha_majith" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dushantha_majith" height="30" width="40" /></a>
+<a href="https://medium.com/dushanthamajith" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="dushanthamajith" height="30" width="40" /></a>
+</p>
+<br><br><br>
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://aws.amazon.com/amplify/" target="_blank" rel="noreferrer"> <img src="https://docs.amplify.aws/assets/logo-dark.svg" alt="amplify" width="40" height="40"/> </a> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://appwrite.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/appwriteio/appwriteio-icon.svg" alt="appwrite" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> <a href="https://www.wxwidgets.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/WxWidgets.svg" alt="wx_widgets" width="40" height="40"/> </a> </p>
+<br><br>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=dushantha2000&show_icons=true&locale=en&layout=compact" alt="dushantha2000" /></p>
