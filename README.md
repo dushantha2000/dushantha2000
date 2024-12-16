@@ -8,7 +8,7 @@
 <br><br>
 - 🌱 I’m currently learning **Laravel**
 
-- 👨‍💻 All of my projects are available at [dushantha.me]([dushantha.me](https://dushanthamajith.netlify.app/))
+- 👨‍💻 All of my projects are available at [dushantha.me](dushantha.me](https://dushanthamajith.netlify.app)
 
 - 📝 I regularly write articles on [https://xtechnologyworld.blogspot.com](https://xtechnologyworld.blogspot.com)
 
