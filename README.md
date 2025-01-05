@@ -3,8 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dushantha2000&label=Profile%20views&color=0e75b6&style=flat" alt="dushantha2000" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dushantha2000" alt="dushantha2000" /></a> </p>
-
 - 🌱 I’m currently learning **React , Python & Laravel**
 
 - 👨‍💻 All of my projects are available at [https://dushanthamajith.netlify.app/](https://dushanthamajith.netlify.app/)
