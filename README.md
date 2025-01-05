@@ -33,7 +33,7 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=dushantha2000&show_icons=true&locale=en" alt="dushantha2000" /></p>
 
 <p align="center">
-  <img height="150" width="150" src="https://github.com/GovindSingh9447/GovindSingh9447/blob/main/WEBP/left.webp">
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Govindsingh9447&theme=dark&hide_border=true"/>
-  <img height="150" width="150" src="https://github.com/GovindSingh9447/GovindSingh9447/blob/main/WEBP/right.webp">
+ 
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dushantha2000&theme=dark&hide_border=true"/>
+  
 </p>
