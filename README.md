@@ -1,6 +1,9 @@
-<h1 align="center">Hi 👋, I'm Dushantha Majith</h1>
-<h3 align="center">A Passionate IT Student | Exploring the Boundless World of Technology</h3>
-###
+<p align="center">
+  <img src="https://github.com/thompsonemerson/thompsonemerson/raw/master/cover-thompson.png" height="200"/>
+</p>
+<hr>
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I'm Akash chowrasia</h1>
+<h3 align="center">Software Engineer | Technical Content Writer | Data Analysis Enthusiast</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dushantha2000&label=Profile%20views&color=0e75b6&style=flat" alt="dushantha2000" /> </p>
 ---
 - 🌱 I’m currently learning **React , Python & Laravel**
