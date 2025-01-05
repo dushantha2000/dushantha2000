@@ -6,16 +6,16 @@
 <h3 align="center">Software Engineer | Technical Content Writer | Data Analysis Enthusiast</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dushantha2000&label=Profile%20views&color=0e75b6&style=flat" alt="dushantha2000" /> </p>
   <img align="right" alt="GIF" height="160px" src="https://media.giphy.com/media/Ah3zHH7hvsSB2/giphy.gif" />
----
-- 🌱 I’m currently learning **React , Python & Laravel**
+<!--Start Intro-->               
+<p align="left">I am a Full Stack Developer and Machine Learning Enthusiast with a huge love for Python, React.js, Node.js, Django, RDBMS, REST API and Data Visualization. </p>
 
-- 👨‍💻 All of my projects are available at [https://dushanthamajith.netlify.app/](https://dushanthamajith.netlify.app/)
-
-- 📝 I regularly write articles on [https://xtechnologyworld.blogspot.com/](https://xtechnologyworld.blogspot.com/)
-
-- 📫 How to reach me **majithdushantha@gmail.com**
-
-- ⚡ Fun fact **Call me as Majith**
+- ✨ Student of life :)
+- 🌱 I’m currently learning many things, I believe that everyday is a learning opportunity.
+- 💁‍♂️ Volunteer MOD at **Stemup Community**.
+- ✍ I write technical blogs, You can visit my blog site at [xtechnologyworld](https://xtechnologyworld.blogspot.com/).
+- ❤ Contributing to Open Source.
+- 💻 Visit my [Portfolio](https://dushanthamajith.netlify.app/) for more details about me.
+<!--End Intro-->
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
