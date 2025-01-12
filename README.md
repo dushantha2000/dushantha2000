@@ -10,7 +10,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dushantha2000&label=Profile%20views&color=0e75b6&style=flat" alt="dushantha2000" /> </p>
   <img align="right" alt="GIF" height="160px" src="https://media.giphy.com/media/Ah3zHH7hvsSB2/giphy.gif" />
 <!--Start Intro-->               
-<p align="left">I am a Software Engineer and Machine Learning Enthusiast skilled in Python, React.js, Laravel, MySQL, MongoDB, REST APIs, and Data Visualization. Passionate about building efficient, user-friendly solutions and exploring innovative technologies. </p>
+<p align="left">I am a Software Engineer and Machine Learning Excited skilled in Python, React.js, Laravel, MySQL, MongoDB, REST APIs, and Data Visualization. Passionate about building efficient, user-friendly solutions and exploring innovative technologies. </p>
 
 - ✨ Student of life :)
 - 🌱 I’m currently learning many things, I believe that everyday is a learning opportunity.
