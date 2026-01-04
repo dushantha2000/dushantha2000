@@ -24,7 +24,7 @@
 - 💁‍♂️ Volunteer at **Stemup Community**.
 - ✍ I write technical blogs. You can visit my blog at [xtechnologyworld](https://xtechnologyworld.blogspot.com/).
 - ❤ Contributing to Open Source.
-- 💻 Visit my [Portfolio](https://dushanthamajith.netlify.app/) for more details.
+- 💻 Visit my [Portfolio](https://dushantha.me/) for more details.
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/dushantha-majith" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dushantha-majith" height="30" width="40" /></a>
